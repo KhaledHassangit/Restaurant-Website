@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Restaurant-Website/static/css/main.8eb9232c.css",
+    "main.js": "/Restaurant-Website/static/js/main.5f62fb8d.js",
+    "static/media/2.png": "/Restaurant-Website/static/media/2.b810024430d376b6bd6d.png",
+    "static/media/img1.png": "/Restaurant-Website/static/media/img1.91adf8dc0779a423e014.png",
+    "static/media/03.jpg": "/Restaurant-Website/static/media/03.0df4d0d0dda2d436bffc.jpg",
+    "static/media/Bakery.jpg": "/Restaurant-Website/static/media/Bakery.2dd8ea198a716d5d2a61.jpg",
+    "static/media/refreshherohome.webp": "/Restaurant-Website/static/media/refreshherohome.e8328ca7839273dec861.webp",
+    "static/media/girl.jpg": "/Restaurant-Website/static/media/girl.960ff282036e3c4e63eb.jpg",
+    "static/media/CheeseCake.jpg": "/Restaurant-Website/static/media/CheeseCake.a7f74c39d0decba6a195.jpg",
+    "static/media/Boy.jpg": "/Restaurant-Website/static/media/Boy.f6e01ff2a6ae714f244b.jpg",
+    "static/media/01.jpg": "/Restaurant-Website/static/media/01.1defe43a880022701c8d.jpg",
+    "static/media/02.jpg": "/Restaurant-Website/static/media/02.a567a9db1482b99c0fab.jpg",
+    "index.html": "/Restaurant-Website/index.html",
+    "main.8eb9232c.css.map": "/Restaurant-Website/static/css/main.8eb9232c.css.map",
+    "main.5f62fb8d.js.map": "/Restaurant-Website/static/js/main.5f62fb8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eb9232c.css",
+    "static/js/main.5f62fb8d.js"
+  ]
+}
