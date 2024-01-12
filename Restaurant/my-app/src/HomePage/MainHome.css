@@ -496,8 +496,8 @@ button.btn2:hover{
     display: none;
   }
 }
-@media (max-width:767px) {
+/* @media (max-width:767px) {
   .footer {
     padding-bottom: 100px;
     }
-}
+} */
