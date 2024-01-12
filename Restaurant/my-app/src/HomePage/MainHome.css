@@ -312,6 +312,13 @@ button.btn2:hover{
 
   }
 }
+@media (max-width:435px) {
+  .slider p{
+    font-size: 16px;
+    line-height: 16px;
+
+  }
+}
 .slider h3 {
   color: #ac2947;
   margin: 25px 0;
