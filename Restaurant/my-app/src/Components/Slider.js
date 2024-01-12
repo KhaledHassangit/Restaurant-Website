@@ -36,7 +36,7 @@ function Slider() {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img alt=''  src={Girl}/>
+                    <img alt=''  src={Man}/>
                     <Carousel.Caption>
                     <p >
                     "Far far away, behind the word mountains, far from the countries <br/>  Vokalia and Consonantia, there live the blind texts. Separated they live."
