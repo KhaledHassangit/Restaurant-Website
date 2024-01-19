@@ -1,0 +1,510 @@
+.navbar-toggler:focus{
+  background-color: #ac2947 !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler {
+  border: 1px solid #ac2947 !important;
+  background-color:#ac2947;
+}
+
+header{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+
+}
+
+.landing-img{
+  background-size: cover;
+  text-align: right;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 130%;
+} 
+
+header h2{
+  color: #7c0f28;
+  font-size: 55px;
+  line-height: 60px;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: bold;
+  width: 80%;
+}
+@media (max-width:567px) {
+  header h2{
+    font-size: 40px;
+  }
+  nav .button{
+    margin-left: 0;
+  }
+}
+header p {
+  color: #333;
+  font-family: 'Tajawal', sans-serif;
+  margin: 15px 0px;
+}
+
+header button,
+.pride button
+,.ingredients button, .blogs button, .banner button, .subscribe button
+{
+  width: 160px;
+  height: 50px;
+  border: 1px solid #ac2947;
+  background-color: #ac2947;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  margin: 20px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+button.btn2{
+  background-color: #fff;
+  color: #000;
+}
+
+button:hover{
+  transition: 0.2s ease-in-out;
+}
+
+button.btn1:hover{
+  background-color: #fff;
+  color: #ac2947;
+}
+
+button.btn2:hover{
+  background-color: #ac2947;
+  color: #fff;
+}
+
+.numbers{
+  background-color: #ac2947;
+  padding: 25px 0;
+  max-width: 100% !important;
+  height: auto;
+  overflow: hidden;
+
+}
+
+.numbers h2{
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0;
+  font-family: 'Tajawal', sans-serif;
+
+}
+.numbers h6{
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Tajawal', sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.pride {
+  background-color: #fff;
+  max-width: 100% !important;
+  height: auto;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.pride img,.ingredients img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+.pride h2,
+.ingredients h2{
+  color: #43121d;
+  font-size: 40px;
+  margin-left: 40px;
+  padding: 5px 15px;
+  font-weight: bold;
+  line-height: 60px;
+  font-family: 'Tajawal', sans-serif;
+  width: 80%;
+}
+@media (max-width:767px) {
+  .pride h2{
+    margin-left: 0;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+}
+.pride p ,
+.ingredients p, .paralex p .blogs p{
+  color: #333;
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: 'Tajawal', sans-serif;
+  line-height: 30px;
+}
+@media (max-width:767px) {
+  .pride  p ,.ingredients p {
+    margin-left:10px;
+    margin-top: 15px;
+    width: 85%;
+
+  }
+  
+}
+.pride .btn3{
+  margin-left: 50px;
+}
+@media (max-width:767px) {
+  .pride .btn3, .ingredients .button{
+    margin-left: 10px !important;
+  }
+}
+.pride .btn3:hover, .ingredients button:hover ,
+.blogs button:hover,
+.banner button:hover
+,.subscribe button:hover{
+
+  background-color: #fff;
+  color: #ac2947;
+}
+
+.ingredients{
+  margin-top: 25px;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: left;
+  height: auto;
+}
+.ingredients h2{
+  width: 100%;
+}
+@media (max-width:767px){
+  .ingredients h2{
+    margin-left: 0;
+  }
+}
+
+.ingredients ul li {
+  list-style: square;
+  font-family: 'Tajawal', sans-serif;
+  color: #ac2947;
+}
+
+.paralex{
+  background-image: url("../IMG//CheeseCake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+  margin: 50px 0;
+}
+
+.paralex h2, .blogs h2{
+  color: #43121d;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 40px;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.paralex p , .blogs p{
+  font-weight: bold;
+  line-height: 35px;
+  letter-spacing: 1px;
+  transition: .2s;
+}
+
+.paralex span{
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  transition: .2s;
+  display: block;
+}
+
+.paralex span:hover ,.paralex p:hover {
+  color: #ac2947;
+
+}
+
+.blogs{
+  overflow: hidden;
+  padding: 25px 0;
+}
+
+.blogs h2{
+  color: #ac2947;
+}
+
+.blogs img{
+  max-width: 100%;
+  border-radius: 10px;
+  transition: .3s;
+  cursor: pointer;
+} 
+.blogs .box{
+  border: 1px solid #f6f6f6;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: left;
+  border-radius: 5px;
+}
+.blogs h4{
+  font-weight: bold;
+}
+
+.blogs p{
+  color: #333;
+}
+
+.blogs p.price{
+  color: #ac2947;
+  font-size: 30px;
+}
+
+.blogs button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.blogs img:hover{
+  transform: translateY(-10px);
+}
+
+.slider{
+  background-color: #ac2947;
+  padding: 30px 0;
+  margin: 30px 0;
+  min-width: 300px;
+  max-width: 100%;
+  height: 600px;
+  border: 1px solid #ac2947;
+}
+
+.slider img {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 220px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.slider p{
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #000;
+}
+@media (max-width:767px) {
+  .slider p{
+    font-size: 18px;
+    line-height: 24px;
+
+  }
+}
+@media (max-width:435px) {
+  .slider p{
+    font-size: 16px;
+    line-height: 16px;
+
+  }
+}
+@media (max-width:371px) {
+  .slider p{
+    font-size: 13px;
+    line-height: 13px;
+
+  }
+}
+.slider h3 {
+  color: #ac2947;
+  margin: 25px 0;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.slider h3:hover{
+  color: #ee0a3b;
+}
+
+.slider .Carousel{
+  background-color: #fff ;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+
+
+.carousel-control-next span , .carousel-control-prev  span{
+  background-color: #ac2947 !important;
+}
+
+
+.slider .carousel-indicators{
+  bottom: -10 !important;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+
+
+}
+.slider .carousel-indicators button {
+    background-color: #ac2947;
+    width: 60px;
+    height: 4px;
+
+}
+.questions{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  padding: 25px 0;
+  margin: 20px 0 ;
+}
+.questions h2 , .questions h5{
+  color:#43121d;
+}
+
+.questions span{
+  color: #f98169;
+  font-size: 35px;
+}
+.questions p {
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.questions h5{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+
+.banner{
+  background-image: url("../IMG//Bakery.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding: 40px 0 ;
+  margin: 50px 0;
+}
+.banner  h2{
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+}
+
+
+.subscribe{
+  width: 100%;
+  max-width: 100%;
+  margin: 40px 0;
+  padding: 25px 0;
+  height: auto;
+}
+
+.subscribe h2{
+  color: #43121d;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 37px;
+}
+
+.subscribe p {
+  color: #333;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.subscribe input{
+  width: 100%;
+  height: 55px;
+  border: 3px solid #e5e5e5;
+  font-weight: 700;
+  padding: 0 20px;
+  border-radius: 3px;
+  margin-right: 30px;
+}
+.subscribe input:focus{
+  border: 1px solid #252323;
+
+}
+@media (max-width:576px) {
+  .footer ul  {
+    flex-direction: column !important;
+    text-align: center;
+    align-items: center;
+    padding: 5px 0;
+  }
+}
+.footer{
+  height: auto;
+  padding: 30px 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: #ac2947;
+}
+
+.footer ul li{
+  padding: 10px 30px;
+  list-style: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+
+
+.footer  p{
+  color: #fff;
+  margin: 10px 0 ;
+  padding: 10px 0;
+}
+
+
+.footer ul.icons li  {
+  padding: 8px;
+}
+.footer ul.icons svg{
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width:767px) {
+  .footer ul li{
+    display: none;
+  }
+}
+/* @media (max-width:767px) {
+  .footer {
+    padding-bottom: 50px;
+    }
+} */

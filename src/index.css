@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    font-family: 'Tajawal', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+code{
+    font-family: 'Tajawal', sans-serif;
+
+}
