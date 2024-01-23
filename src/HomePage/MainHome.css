@@ -441,15 +441,19 @@ button.btn2:hover{
   font-size: 18px;
   margin: 15px 0;
 }
-
 .subscribe input{
-  width: 100%;
+  width: 450px;
   height: 55px;
   border: 3px solid #e5e5e5;
   font-weight: 700;
   padding: 0 20px;
   border-radius: 3px;
   margin-right: 30px;
+}
+@media (max-width:767px) {
+  .subscribe input{
+    width: 100%;
+  }
 }
 .subscribe input:focus{
   border: 1px solid #252323;
